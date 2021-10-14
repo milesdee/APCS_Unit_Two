@@ -8,7 +8,7 @@ public class TemperatureDifference {
      * @return the absolute value of the difference between the two temps. Make sure to change the 0
      */
     public static int calculateDifference(int temp1, int temp2) {
-
+        Math.abs(temp1 - temp2);
         return 0;
     }
 

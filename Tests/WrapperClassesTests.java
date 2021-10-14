@@ -29,7 +29,7 @@ public class WrapperClassesTests {
 
     @Test
     void WrappersDelightTest() {
-        //WrappersDelight.main(null);
+        WrappersDelight.main(null);
         String expected = "15\n5\n29.5\n10.5\n";
         assertTrue(outContent.toString().contains(expected));
     }
