@@ -12,7 +12,7 @@ public class EmailGenerator {
     }
     public static String makeUserName(String fullName) {
         String userName = fullName.charAt(0) + fullName.substring((fullName.indexOf(" ") + 1)) +
-                ((int)(Math.random()*99)+1);
+                ((int)(Math.random()*90)+10);
         return userName;
     }
     public static String makeEmail(String userName, String provider) {
